@@ -32,6 +32,7 @@ urlpatterns = [
         include("django_rest_passwordreset.urls", namespace="password_reset"),
     ),
     path('api/authen/', include('authen.urls')),
+    path('resipe/', include('recipe.urls')),
 ]
 
 
